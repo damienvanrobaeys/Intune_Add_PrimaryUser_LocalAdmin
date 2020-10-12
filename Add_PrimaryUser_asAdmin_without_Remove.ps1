@@ -29,7 +29,7 @@ Else
 If($Module_Installed -eq $True)
 	{
 		$Intune_Connected = $False
-		$tenant = "Ypur tenant"
+		$tenant = "Your tenant"
 		$authority = "https://login.windows.net/$tenant"
 		$clientId = "Your client ID"
 		$clientSecret = "Your secret"
